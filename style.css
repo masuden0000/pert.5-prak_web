@@ -1,0 +1,54 @@
+.required {
+    color: red;
+}
+
+th,
+td {
+    text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.caption {
+    font-style: italic;
+}
+
+
+/* HEADER */
+header>ul li {
+    color: red;
+}
+
+/* MAIN */
+.create-acc {
+    background-color: #dcf8ff;
+    padding: 5px 0;
+    width: 100%;
+    display: inline-block;
+}
+
+main>form div table:first-child tr td {
+    display: inline-block;
+}
+
+main>form div table:first-child tr td {
+    display: inline-block;
+}
+
+main>form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main>form div table:first-child {
+    width: 50%;
+}
+
+main>form div table:last-child {
+    width: 50%;
+}
+
+.shipping-information {
+    margin-top: 10px;
+}

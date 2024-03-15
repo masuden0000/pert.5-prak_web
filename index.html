@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Billing Address - Blue Nile</h1>
+        <ul>
+            <li>Please enter a valid zip code for your region.</li>
+        </ul>
+    </header>
+    <main>
+        <form>
+            <!-- ROW 1 -->
+            <table class="create-acc">
+                <th>Would you like to create a Blue Nile Account and store this information?</th>
+                <td style="padding-left: 0;">
+                    <label for="row1-checkbox-yes">
+                        <input type="radio" id="row1-checkbox-yes" name="row1-checkbox-yes"> Yes
+                    </label>
+                </td>
+                <td>
+                    <label for="row2-checkbox-no">
+                        <input type="radio" id="row2-checkbox-no" name="row2-checkbox-no">No
+                    </label>
+                </td>
+            </table>
+
+            <!-- COLUMN 1 ROW 2 -->
+            <div>
+                <table>
+                    <tr>
+                        <th><span class="required">&ast;</span>First Name</th>
+                        <td><input type="text" id="first_name" name="first_name" value="Huda" size="32" required></td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Last Name</th>
+                        <td><input type="text" id="last_name" name="last_name" value="Rasyad Wicaksono" size="32"
+                                required></td>
+                    </tr>
+                    <tr>
+                        <th>Company</th>
+                        <td><input type="text" id="company" name="input3" value="UPN Veteran Jakarta" size="32"></td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Phone</th>
+                        <td>
+                            <input type="text" id="phone_number" name="phone_number" value="081331231234" size="12">
+                            <br>
+                            <span class="caption">Phone Number.</span>
+                        </td>
+                        <td>
+                            <input type="text" id="ext" name="ext" size="7">
+                            <br>
+                            <span class="caption">Ext.</span>
+                        </td>
+                        <td>
+                            <a href="#">Incl. Number?</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Email</th>
+                        <td><input type="text" id="email" name="email" value="2210511098@mahasiswa.upnvj.ac.id"
+                                size="32" required></td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Re-type Email</th>
+                        <td><input type="text" id="re-type_email" name="re-type_email"
+                                value="2210511098@mahasiswa.upnvj.ac.id" size="32" required>
+                            <br>
+                            <span class="caption">Enter an address where we can send an e-mail confirming your
+                                order</span>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- COLUMN 2 ROW 2 -->
+                <table>
+                    <tr>
+                        <th><span class="required">&ast;</span>Address</th>
+                        <td>
+                            <input type="text" id="address_column1" name="address_column1" value="Bogor" size="32"
+                                required>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="text" id="address_column2" name="address_column2" size="32" required>
+                        </td>
+
+                    </tr>
+
+                    </td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>City</th>
+                        <td><input type="text" id="City" name="City" value="Jakarta" required></td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>State</th>
+                        <td>
+                            <select name="state" id="state">
+                                <option value="jakarta">JKT - Jakarta</option>
+                                <option value="bogor">BGR - Bogor</option>
+                                <option value="depok">DPK - Depok</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Zip code</th>
+                        <td><input type="text" id="zip_code" name="zip_code" value="169111" size="32" required></td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Country</th>
+                        </label></td>
+                        <td>
+                            <select name="state" id="state">
+                                <option value="indonesia">Indonesia</option>
+                                <option value="malaysia">Malaysia</option>
+                                <option value="singapura">Singapura</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="required">&ast;</span>Address type</th>
+                        <td>
+                            <label for="col2_row2-checkbox-yes">
+                                <input type="radio" id="col2_row2-checkbox-yes" name="col2_row2-checkbox-yes">Home
+                            </label>
+                            <label for="col2_row2-checkbox-no">
+                                <input type="radio" id="col2_row2-checkbox-no" name="col2_row2-checkbox-no">Business
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- ROW 3 -->
+            <table class="shipping-information">
+                <th>Are you shipping this order to your billing address?</th>
+                <td style="padding-left: 0;">
+                    <label for="row3-checkbox-yes">
+                        <input type="radio" id="row3-checkbox-yes" name="row3-checkbox-yes">Yes
+                    </label>
+                </td>
+                <td>
+                    <label for="row2-checkbox-no">
+                        <input type="radio" id="row2-checkbox-no" name="row2-checkbox-no">No
+                    </label>
+                </td>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>
